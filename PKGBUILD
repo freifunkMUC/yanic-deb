@@ -1,6 +1,6 @@
 # Maintainer: DasSkelett <dasskelett@dasskelett.dev>
 pkgname=yanic
-pkgver=1.9.3+batmanv2
+pkgver=2.1.1+batmanv3
 pkgrel=2
 pkgdesc='A respondd client that fetches, stores and publishes information about a Freifunk network'
 arch=('amd64' 'arm64')
@@ -10,7 +10,7 @@ license=('AGPL-3.0')
 url='https://github.com/freifunkMUC/yanic'
 
 source=("${pkgname}-${pkgver}::https://github.com/freifunkMUC/yanic/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('c520d2f77c02958ec7b6f22f31113e3c5b92b682b8cf975baf167634ac22c7e3')
+sha256sums=('e9e1fb94a087643e77d564830cac7b512b00928e3f6323635871a23ba23ef188')
 
 build() {
     cd "${pkgname}-${pkgver//+/-}/"
